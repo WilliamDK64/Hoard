@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class NPCConversation : MonoBehaviour
 {
-    public string[] ConversationText;
+    public string[] Conversations;
+    public string[] Answers;
 }

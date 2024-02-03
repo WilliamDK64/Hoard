@@ -5,4 +5,5 @@ using UnityEngine;
 public class Encounters : MonoBehaviour
 {
     public GameObject[] NPCs;
+    public string[] NPCIntros;
 }

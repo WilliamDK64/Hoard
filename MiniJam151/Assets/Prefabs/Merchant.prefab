@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5893636192477677701}
-  - component: {fileID: 6236893617753435134}
+  - component: {fileID: 8696712875213967800}
   m_Layer: 0
   m_Name: Merchant
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6236893617753435134
+--- !u!114 &8696712875213967800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,7 +44,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 678f3ed256440084f851fd2017c003d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ConversationText:
-  - Hello dragon! I have some wares I would like to sell to you.
-  - AWOOGA AWOOGA
-  - teehee hehehehehehe
+  Conversations:
+  - Hail dragon! I have some wares I would like to sell to you.$For the measly price
+    of 10 GOLD, I will give you a magical sword for your collection.
+  - Greetings dragon. I have a favour to ask of you.$I have been down on my luck
+    in recent times, truth be told, and was hoping you could spare me some coin from
+    your magnificent hoard?$I promise you, when I am able, I will repay you tenfold!
+    (PAY 5 GOLD)
+  Answers:
+  - Trade$Fight
+  - Gift$Fight
