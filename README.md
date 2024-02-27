@@ -1,2 +1,2 @@
-# MiniJam151
-The repository for my Mini Jam 151, Dragons.
+# Hoard
+The repository for Hoard, a game about a dragon collecting treasure.
